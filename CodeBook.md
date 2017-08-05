@@ -32,6 +32,8 @@ The files in the 'raw_data' folder were generated for a study [1] of human movem
 
 - 'raw_data/train/subject_train.txt' and 'raw_data/test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
+'raw_data/features_info.txt' describes 33 variables the were measured for each session. This script is only concerned with the mean and standard deviation of each variable, so the output contains 68 columns (subject, activity, and mean and std for 33 variables).
+
 ## Procedure
 
 1. Using 'raw_data/features.txt', identify the columns that represent the mean and standard deviation of derived variables - only the column names containing the string 'mean()' or 'std()'.
